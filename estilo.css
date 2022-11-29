@@ -1,0 +1,51 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+body {
+	background: rgba(210,75,90,1);
+	background: -moz-linear-gradient(left, rgba(210,75,90,1) 0%, rgba(239,197,202,1) 53%, rgba(186,39,55,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,75,90,1)), color-stop(53%, rgba(239,197,202,1)), color-stop(100%, rgba(186,39,55,1)));
+	background: -webkit-linear-gradient(left, rgba(210,75,90,1) 0%, rgba(239,197,202,1) 53%, rgba(186,39,55,1) 100%);
+	background: -o-linear-gradient(left, rgba(210,75,90,1) 0%, rgba(239,197,202,1) 53%, rgba(186,39,55,1) 100%);
+	background: -ms-linear-gradient(left, rgba(210,75,90,1) 0%, rgba(239,197,202,1) 53%, rgba(186,39,55,1) 100%);
+	background: linear-gradient(to right, rgba(210,75,90,1) 0%, rgba(239,197,202,1) 50%, rgba(186,39,55,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d24b5a', endColorstr='#ba2737', GradientType=1 );
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.row {
+	display: table-row;
+}
+
+div.pixel {
+	display: table-cell;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+}
+
+div#trans {
+	background-color: transparent;
+}
+
+div#black {
+	background-color: black;
+}
+
+div#red {
+	background-color: red;
+}
+
+div#gray {
+	background-color: #BDBDBD;
+}
+
+div#white {
+	background-color: white;
+}
+
+
